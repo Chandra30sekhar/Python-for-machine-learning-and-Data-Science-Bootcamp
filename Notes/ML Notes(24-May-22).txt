@@ -1,0 +1,87 @@
+What is machine learning?
+Machine learning is  a form of AI that enables a system to learn from data rather than through explicit programming.
+
+Iterative learning from data.
+	Machine learning enables models to train on datasets before being deployed.
+	Online ml Models:
+		These models continuously adapt as new data is ingested.
+		These models are continuously refined by processing new data in real time and     training the system to adapt to changing patterns and associations in the data.
+	Offline ml Models:
+		These models once deployed do not change.
+
+Defining Big Data:
+	Big data is any kind of data source with at least one of the four properties called the four V's:
+		1.Extremely large Volumes of data
+		2.The ability to move that data at high Velocity of speed
+		3.An ever-expanding Variety of data sources
+		4.Veracity so that data sources truly represent the truth
+		
+	NOTE*: 1.The accuracy of a machine learning model can increase substantially if its trained on big data.
+		   2.Big data incorporates all kinds of data including, 
+			a.Structured data
+			b.Unstructured data
+			c.Semi-Structured data
+	
+The need to understand your data:
+	1.You need to understand the origin of your data
+	2.You must also perform data cleansing or tidying.
+	Data Cleaning:
+		It is the process of transforming the data into a form that the machine can understand.
+		
+	
+Descriptive analysis:
+	Descriptive analysis helps the analysts understand current reality in the business.
+	You need to understand the context of historical data in order to understand the current reality of where the business is today.
+	
+Predictive Analysis:
+	Predictive analysis helps anticipate changes based on understanding the patterns and anomalies within the data.
+	A predictive analytics tool requires that the model is constantly provided with new data that reflects business change
+	With a predictive model you look into the future.
+	
+	
+Roles of statics and data mining in ML:
+	1.Statistics:
+		It is the science of analyzing data.
+		It is used to reach conclusions about the data
+		
+		Machine learning models leverage statistical algorithms and apply them to predict analytics.
+		
+	2.Data Mining:
+		It's the process of exploring and analyzing large amounts of data to discover patterns in that data.
+		Algorithms are used to find the relationships and patterns in data, then this information is used to make predictions.
+		NOTE*: Generally data mining tools are used on large volumes of structured data.
+		
+Approaches to machine learning:
+	Machine learning techniques are required to improve the accuracy of predictive models.
+	The category depends on the problem statement and also the volume of data.
+	The categories are:
+		a.Supervised learning:
+			Supervised learning typically begins with an established set of data
+			and a certain understanding of how the data is classified.
+			
+			Supervised learning is intended to find the patterns in data that can be applied to analytics process.
+			
+			This data has labeled features that define the meaning of the data.
+			
+			NOTE*: 1.When the label is continuous it is regression
+				   2. When the data comes from a finite set of values it is classification
+				   
+				   Regression helps understand the correlation between the variables.
+				   
+			The algorithms are trained using preprocessed examples and at the end performance
+			of the algo is evaluated with the test data.
+			
+			NOTE*: Patterns that are identified for a subset of data can’t be detected in the larger population of data.
+					If the model is fit only to represent the patterns that exist in the training subset, it
+					creates a problem called overfitting.
+					Overfitting:
+						It means that our model is precisely tuned for your training data but may not 
+						be applicable for large sets of unknown data.
+						
+			Applications of supervised learning:
+				1. Fraud detection
+				2. Recommendation solutions
+				3. Speech recognition
+				4. Risk analysis
+				5. Image Classification
+
